@@ -1,0 +1,7 @@
+interface:
+  display_name: "Concerta"
+  short_description: "事实驱动、遵循既有风格并选择最小充分方案的通用任务工作流"
+  default_prompt: "Use $concerta to verify the goal and facts, follow the existing style, stay within scope, reuse trustworthy code and resources, choose the smallest sufficient approach, validate it, and report only what matters."
+
+policy:
+  allow_implicit_invocation: true
